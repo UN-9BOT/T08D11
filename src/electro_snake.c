@@ -24,7 +24,6 @@ int main(void) {
         printf("\n\n");
         sort_horizontal(matrix, n, m, result);
         output(result, n, m);
-        printf("\n");
         freeMX(matrix, n);
         freeMX(result, n);
     }
